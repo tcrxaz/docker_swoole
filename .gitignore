@@ -1,0 +1,20 @@
+# Mac OSX
+.DS_Store
+
+# IDE / Editor
+.idea
+.vscode
+
+# dotenv environment variables file
+.env
+
+# Data
+mariadb/*
+redis/*
+
+# Logs
+logs/mariadb/*
+logs/nginx/*
+
+# Exclusion item
+!*.gitkeep
